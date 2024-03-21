@@ -1,0 +1,39 @@
+import React from "react";
+
+export const Header = (props) => {
+  return (
+    <header id="header">
+      <div className="intro">
+        <div className="overlay">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-8 col-md-offset-2 intro-text">
+                <h1>
+                  {props.data ? props.data.title : "Loading"}
+                  <span></span>
+                </h1>
+                <p>{props.data ? props.data.paragraph : "Loading"}</p>
+                <a
+                    target="_blank"  rel="noreferrer"
+                    href="https://github.com/Infinite-Null/Melody/releases/download/v2/app-release.apk"
+                    className="btn btn-custom btn-lg page-scroll"
+                >
+                  Download Now
+                </a>{" "}
+                <a className="btn btn-custom btn-lg page-scroll" style={{
+                  background: "rgb(45,51,90)",
+                  color: "white",
+                  padding: 15,
+                  borderRadius: 10000,
+                  marginLeft:10
+                }} target="_blank"  rel="noreferrer" href={"https://github.com/Infinite-Null/Melody"}>
+                  Contribute Now
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  );
+};

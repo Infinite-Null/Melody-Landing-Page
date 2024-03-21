@@ -1,0 +1,68 @@
+{
+  "Header": {
+    "title": "MELODY",
+    "paragraph": "Your Ultimate Ad-Free Music Companion! Dive into a world of limitless tunes, curated playlists, and personalized recommendations—all without interruptions "
+  },
+  "About": {
+    "paragraph": "An open-source music streaming app developed with React Native and harnessing the power of JioSavan's Unofficial API, Melody offers you a seamless music streaming experience at your fingertips. Dive into a world of limitless tunes, curated playlists, and personalized recommendations—all without interruptions ",
+    "Why": [
+      "Streaming Support ",
+      "Download Support",
+      "Lyrics Support",
+      "No Ads"
+    ],
+    "Why2": [
+      "No Subscriptions ",
+      "Customize UI",
+      "High-Quality Audio",
+      "Vast Music Library"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Home",
+      "largeImage": "img/portfolio/Home.png",
+      "smallImage": "img/portfolio/Home.png"
+    },
+    {
+      "title": "Discover",
+      "largeImage": "img/portfolio/Discover.png",
+      "smallImage": "img/portfolio/Discover.png"
+    },
+    {
+      "title": "Player",
+      "largeImage": "img/portfolio/Player.png",
+      "smallImage": "img/portfolio/Player.png"
+    }
+  ],
+  "Contact": {
+    "address": "4321 California St, San Francisco, CA 12345 ",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-music",
+      "title": "Ad-free",
+      "text": "Enjoy uninterrupted music playback."
+    },
+    {
+      "icon": "fa fa-download",
+      "title": "Free Download",
+      "text": "Download songs for free."
+    },
+    {
+      "icon": "fa fa-soundcloud",
+      "title": "Streaming",
+      "text": "Stream music in high-quality audio."
+    },
+    {
+      "icon": "fa fa-file",
+      "title": "Lyrics",
+      "text": "View lyrics while listening."
+    }
+  ]
+}
