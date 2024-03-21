@@ -20,12 +20,13 @@ export const Header = (props) => {
                 >
                   Download Now
                 </a>{" "}
+                {/*<div style={{height:"7px"}}/>*/}
                 <a className="btn btn-custom btn-lg page-scroll" style={{
                   background: "rgb(45,51,90)",
                   color: "white",
                   padding: 15,
                   borderRadius: 10000,
-                  marginLeft:10
+                  marginLeft:5
                 }} target="_blank"  rel="noreferrer" href={"https://github.com/Infinite-Null/Melody"}>
                   Contribute Now
                 </a>
