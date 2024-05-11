@@ -15,7 +15,7 @@ export const Header = (props) => {
                 <p>{props.data ? props.data.paragraph : "Loading"}</p>
                 <a
                     target="_blank"  rel="noreferrer"
-                    href="https://github.com/Infinite-Null/Melody/releases/download/v2/app-release.apk"
+                    href="https://github.com/Infinite-Null/Melody/releases/download/v3/app-release.apk"
                     className="btn btn-custom btn-lg page-scroll"
                 >
                   Download Now
